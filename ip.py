@@ -7,4 +7,6 @@ link = soup('div' , {'id' : 'mw-content-text'})
 for i in link:
     print (i.get_text())
 
+print ("OK")
+
 
